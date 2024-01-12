@@ -31,7 +31,7 @@ import sys
 debug = False
 badArgs = ["bot.py", "./bot.py", "python"]
 args = [arg for arg in sys.argv if arg not in badArgs]
-API_TOKEN = "TokenFromBotFather"
+API_TOKEN = "6984937566:AAGFnbU9a_RYq2E5uRU83ZFNd5OOt2wBgRE"
 try:
     if not re.fullmatch(r"^[0-9]{10}:[a-zA-Z0-9]{35}", API_TOKEN):
         API_TOKEN = input(" Bot Token: ")
